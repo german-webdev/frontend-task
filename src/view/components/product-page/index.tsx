@@ -1,7 +1,10 @@
 import { FC } from 'react';
-import { useParams } from 'react-router-dom';
+import { ProductCard } from '../product-card';
 
 export const ProductPage: FC = () => {
-  const { productId } = useParams();
-  return <div>{`Товар ${productId}`}</div>;
+  return (
+    <div>
+      <ProductCard />
+    </div>
+  );
 };

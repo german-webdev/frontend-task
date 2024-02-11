@@ -21,10 +21,6 @@
     "jsx": "react-jsx",
     "alwaysStrict": true
   },
-  "compilerOptions": {
-    "jsx": "react-jsxdev",
-    "esModuleInterop": true
-  },
   "include": [
     "src"
   ],
